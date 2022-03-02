@@ -16,7 +16,7 @@ def universidad():
     suma=0 # variable suma
     contador=0 #Contador de encuentados
     #ciclo for
-    for i in range(5000000000): # POR MEJORAR ESTO
+    for i in range(5000): # POR MEJORAR ESTO
   
         calificacion=int(input("Ingrese su calificacion: ")) #input  de calificaciones
     
@@ -34,12 +34,15 @@ def universidad():
     for z in range(len(lista)):
         print(lista[z], end=" ")
     '''
-    
+    c = lista[0]
+    d= lista[0]
     for y in range(len(lista)):  # for para recorrer la lista 
-        if lista[0] < lista[y]:
-            mayor= lista[y]    #numero mayor
+        if c < lista[y]:
+            c= lista[y]
+            mayor= c    #numero mayor
 
-        if lista[0] > lista[y]: 
+        if d > lista[y]: 
+            d=lista[y]
             menor = lista[y]  # numero menor
 
     total= suma / contador # hacemos promedio de encuestados

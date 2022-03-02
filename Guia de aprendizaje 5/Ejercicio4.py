@@ -8,7 +8,7 @@ pseudocódigo y el utilizando el ciclo apropiado.
 
 def deuda():
     mes=0
-    suma=10
+    suma=0
     for i in range(1,21):
         if i== 1:
            mes=10

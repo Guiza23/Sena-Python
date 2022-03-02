@@ -11,14 +11,14 @@ def invertir():
 
     while(True):
         
-        Num=int(input("Ingrese un numero a convertir: "))
+        Num=int(input("Ingrese un numero a convertir: ")) # pedidos dato por teclado
 
-        Num = str(Num)
+        Num = str(Num) #Convertidos un entero a string
 
-        print("".join(reversed(Num)))
-
+        print("".join(reversed(Num))) #join pone el string en una fila de carecteres y reverse invierte el string
+                                      
         if Num==0 :
-            break
+            break #rompemos ciclo si ponen un numero 0
         
 
 invertir()

@@ -10,16 +10,16 @@ def num():
     Suma=0
 
     while (Contador == 0): 
-        Num=int(input("Ingrese un numero: "))
+        Num=int(input("Ingrese un numero: ")) #Usuarui ingresa numero por teclado
 
         #conditional
         if Num < 0:
-            Contador = Num
+            Contador = Num # Cambiamos valor del contador para romper ciclo
   
         else:
-            Suma= Suma +Num
+            Suma= Suma +Num #Suma de todos los numeros
 
-    #prints
+    #print
     print("La suma de los numeros ingresados es: {} ".format(Suma))
 
 num()

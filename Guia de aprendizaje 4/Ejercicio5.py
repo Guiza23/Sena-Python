@@ -25,8 +25,9 @@ def deportes():
         documento=int(input("Ingrese documento del socio: "))
         if documento < 0:
             break # rompemos cicli con un numero negativo
-        # ????apellido=str(input("Ingrese apellido del socio: "))
-        # ????nombre=(str(input("Ingrese nombre del socio: ")))
+
+        apellido=str(input("Ingrese apellido del socio: "))
+        nombre=(str(input("Ingrese nombre del socio: ")))
         deporte= int(input("Ingrese deporte que practica: "))
         edad= int(input("Ingrese edad: "))
         print("---------------------------------")
